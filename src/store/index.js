@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 import { mande } from 'mande'
 import { Notify } from 'quasar';
 
-const api = mande('http://localhost:8000/api')
+const api = mande('https://timbrage-back.vercel.app/api')
 
 export default createStore({
   state: {
