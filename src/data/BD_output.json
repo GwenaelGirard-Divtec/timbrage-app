@@ -1,0 +1,88 @@
+{
+    "columns": [
+        {
+            "name": "date",
+            "label": "Date",
+            "field": "date",
+            "sortable": false,
+            "align": "left"
+        },
+        {
+            "name": "time",
+            "label": "heure",
+            "field": "time",
+            "sortable": false,
+            "align": "left"
+        },
+        {
+            "name": "action",
+            "label": "Action",
+            "field": "action",
+            "sortable": false,
+            "align": "left"
+        }
+    ],
+
+    "rows": [
+        {
+            "date": "2022-12-12",
+            "time": "07:30",
+            "action": "entrée"
+        },
+        {
+            "date": "2022-12-12",
+            "time": "12:00",
+            "action": "sortie"
+        },
+        {
+            "date": "2022-12-12",
+            "time": "13:00",
+            "action": "entrée"
+        },
+        {
+            "date": "2022-12-12",
+            "time": "16:30",
+            "action": "sortie"
+        },
+        {
+            "date": "2022-12-01",
+            "time": "07:30",
+            "action": "entrée"
+        },
+        {
+            "date": "2022-12-01",
+            "time": "12:00",
+            "action": "sortie"
+        },
+        {
+            "date": "2022-12-01",
+            "time": "13:00",
+            "action": "entrée"
+        },
+        {
+            "date": "2022-12-01",
+            "time": "16:30",
+            "action": "sortie"
+        },
+        {
+            "date": "2023-01-23",
+            "time": "07:30",
+            "action": "entrée"
+        },
+        {
+            "date": "2023-01-23",
+            "time": "12:00",
+            "action": "sortie"
+        },
+        {
+            "date": "2023-01-23",
+            "time": "13:00",
+            "action": "entrée"
+        },
+        {
+            "date": "2023-01-23",
+            "time": "16:30",
+            "action": "sortie"
+        }
+    ]
+}

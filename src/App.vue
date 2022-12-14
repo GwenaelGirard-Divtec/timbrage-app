@@ -1,30 +1,30 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <q-layout view="hHh lpR fFf">
+        <q-header class="bg-primary text-white" height-hint="98">
+            <q-toolbar>
+                <q-toolbar-title> Timbrage </q-toolbar-title>
+            </q-toolbar>
+
+            <div class="row">
+                <q-tabs align="left" class="col">
+                    <q-route-tab to="/" label="Timbrage" />
+                    <q-route-tab to="/apercu" label="Aperçu" />
+                </q-tabs>
+                <q-tabs align="right" class="col">
+                    <q-route-tab to="/compte" label="compte" />
+                </q-tabs>
+            </div>
+        </q-header>
+
+        <q-page-container>
+            <router-view />
+        </q-page-container>
+    </q-layout>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 </style>
