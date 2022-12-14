@@ -8,7 +8,7 @@
             <div class="row">
                 <q-tabs align="left" class="col">
                     <q-route-tab to="/" label="Timbrage" />
-                    <q-route-tab to="/apercu" label="Aperçu" />
+                    <!--<q-route-tab to="/apercu" label="Aperçu" />-->
                 </q-tabs>
                 <q-tabs align="right" class="col">
                     <q-route-tab to="/compte" label="compte" />
@@ -16,7 +16,7 @@
             </div>
         </q-header>
 
-        <q-page-container>
+        <q-page-container class="body">
             <router-view />
         </q-page-container>
     </q-layout>
@@ -26,5 +26,10 @@
 #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.body {
+    height: 100vh;
+    position: relative;
 }
 </style>
